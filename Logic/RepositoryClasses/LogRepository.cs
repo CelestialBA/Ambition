@@ -14,6 +14,11 @@ namespace Logic.RepositoryClasses
     {
         CelestialEntities db = DBTool.DBInstance;
 
+        public void Delete(int itemID)
+        {
+            throw new NotImplementedException();
+        }
+
         public void Insert(Log item)
         {
             db.Logs.Add(item);
